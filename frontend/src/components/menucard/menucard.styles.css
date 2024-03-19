@@ -1,0 +1,59 @@
+.menu-card-container {
+    flex: 0 0 30%; 
+    background-color: #95dada;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px; 
+    padding: 16px;
+    cursor: pointer;
+    text-align: center; 
+}
+
+.quantity-controls input[type="number"] {
+    width: 100px; 
+    height: 30px; 
+    border-radius: 5px; 
+    text-align: center; 
+    /* Hide the up and down arrows */
+    -webkit-appearance: none; /* Remove default styling */
+    -moz-appearance: textfield; /* Show as text field for Firefox */
+}
+
+/* Hide the up and down arrows */
+.quantity-controls input[type="number"]::-webkit-inner-spin-button,
+.quantity-controls input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.quantity-controls button {
+    width: 30px; 
+    height: 30px;
+    border: none;
+    border-radius: 5px; 
+    background-color: #ffffff;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.quantity-controls button:hover {
+    background-color: #bbb;
+}
+
+.cartbutton {
+    width: 100px;
+    height: 30px;
+    border: none; 
+    border-radius: 5px; 
+    background-color: green;
+    color: white;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    border: 2px solid black; 
+}
+
+.cartbutton:hover {
+    background-color: darkgreen;
+}
